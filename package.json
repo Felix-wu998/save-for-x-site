@@ -1,0 +1,10 @@
+{
+  "name": "x-highest-quality-review-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/site.test.js",
+    "test:browser": "node test/browser-test.cjs",
+    "serve": "python3 -m http.server 4174"
+  }
+}

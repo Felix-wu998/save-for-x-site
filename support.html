@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support and launch-status page for Save for X, covering current testing, compliance review, and pre-launch limitations.">
+  <title>Support & Launch Status — Save for X</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+<link rel="alternate" hreflang="zh-Hans" href="zh/support.html"><link rel="alternate" hreflang="en" href="support.html"></head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="site-nav" aria-label="Primary navigation"><div class="shell nav-inner"><a class="brand" href="index.html"><span class="brand-mark">↓</span> Save for X</a><button class="menu-button" type="button" data-menu-button aria-label="Open navigation" aria-expanded="false">☰</button><div class="nav-links" data-nav-links><a href="index.html#how">How it works</a><a href="index.html#pricing">Pricing</a><a href="index.html#trust">Trust</a><a class="lang-switch" href="zh/index.html" hreflang="zh-Hans">中文</a><a class="nav-cta" aria-current="page" href="support.html">Launch status</a></div></div></nav>
+  <main id="main">
+    <header class="policy-hero"><div class="shell reveal"><div class="status-pill">Review build · Not publicly launched</div><h1>Support & Launch Status</h1><p>The core extension is in local product testing. This website is being completed for payment-provider compliance review and Chrome Web Store preparation.</p></div></header>
+    <div class="shell policy-layout">
+      <nav class="policy-index" aria-label="Page sections"><a href="#status">Current status</a><a href="#verified">Verified</a><a href="#remaining">Remaining gates</a><a href="#contact">Contact</a></nav>
+      <article class="policy-content reveal">
+        <section id="status"><h2>Current status</h2><p>The extension identifies eligible public X posts, places its buttons inside X's own icon row, downloads the highest-bitrate direct MP4 without transcoding, converts GIF posts into real .gif files locally, and captures a whole post as a PNG.</p><p>Screenshots and GIF conversion run entirely on the user's device. Live payment, launch-list collection and Chrome Web Store installation are not enabled yet.</p></section>
+        <section id="verified"><h2>What has been verified</h2><ul><li>74 automated tests and syntax validation pass.</li><li>Buttons appear on real timelines, post pages, list timelines and search results.</li><li>Downloads match an independently obtained highest-quality sample byte-for-byte.</li><li>Interface renders correctly in 25 languages, including right-to-left layouts.</li><li>Promoted posts get no buttons. Posts the public endpoint cannot read show a disabled button explaining why.</li></ul></section>
+        <section id="remaining"><h2>Remaining launch gates</h2><ul><li>Publish this website on a verified HTTPS address.</li><li>Publish a verified support email and complaint channel.</li><li>Complete Dodo Payments compliance review and account verification.</li><li>Implement and test checkout, entitlement activation, restoration, and refund revocation.</li><li>Complete Chrome Web Store review.</li></ul></section>
+        <section id="contact"><h2>Contact status</h2><p>A verified public support address will be published before compliance submission and before any customer payment is accepted. This review build does not invent or expose an unverified support address.</p><div class="notice">Payments open after compliance review. No payment, account credential, or launch-list email is collected on this website.</div></section>
+      </article>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="shell footer-grid"><a class="brand" href="index.html"><span class="brand-mark">↓</span> Save for X</a><div class="footer-links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="refunds.html">Refunds</a><a href="copyright.html">Copyright</a><a aria-current="page" href="support.html">Support</a></div><div>© 2026 · Independent of X Corp.</div></div></footer>
+</body>
+</html>
