@@ -241,8 +241,9 @@ PAGES = {
         "涉及禁止用途、期望绕过访问控制，或主张产品应当还原作者上传前源文件的申请，不会改变产品既定的边界。",
     "A successful refund will revoke the related lifetime entitlement or license access. Downloaded files remain subject to the user's own legal rights and responsibilities.":
         "退款成功后，相应的永久权益或许可将被撤销。已下载的文件仍受使用者自身的法律权利与责任约束。",
-    "The verified public support channel and required purchase information will be published before checkout opens. We will not ask customers to send passwords or payment-card details by email.":
-        "可验证的公开支持渠道，以及申请所需的购买信息，会在结算开放前公布。我们不会要求用户通过邮件发送密码或银行卡信息。",
+    "Send refund requests to": "退款申请请发送至",
+    "Include the purchase information for your order. We will not ask customers to send passwords or payment-card details by email.":
+        "请附上该笔订单的购买信息。我们不会要求用户通过邮件发送密码或银行卡信息。",
     "This policy will be finalized together with the live Merchant of Record terms before accepting payment.":
         "本政策将与正式的 Merchant of Record 条款一并定稿，然后才开始收款。",
 },
@@ -264,8 +265,9 @@ PAGES = {
         "在保存或使用公开视频之前，用户必须具备必要的著作权、许可、授权或法律依据。不得使用本产品协助侵权或未经授权的二次分发。",
     "The extension developer does not operate a video-download proxy, content library, search index, or file-storage service. Direct MP4 files travel from X's video host to the user's browser download directory.":
         "扩展开发者不运营视频下载代理、内容库、搜索索引或文件存储服务。直连 MP4 文件从 X 的视频服务器直接传输到用户浏览器的下载目录。",
-    "A verified complaint channel will be published before public launch. A valid notice should identify the copyrighted work, the relevant public X post, the complainant's authority, the requested action, and a good-faith statement that the disputed use is not authorized.":
-        "可验证的投诉渠道会在正式上线前公布。一份有效的通知应当写明：涉及的受著作权保护作品、相关的公开 X 帖子、投诉人的权利依据、请求采取的措施，以及关于争议使用未获授权的善意声明。",
+    "Send takedown notices to": "著作权投诉请发送至",
+    "A valid notice should identify the copyrighted work, the relevant public X post, the complainant's authority, the requested action, and a good-faith statement that the disputed use is not authorized.":
+        "一份有效的通知应当写明：涉及的受著作权保护作品、相关的公开 X 帖子、投诉人的权利依据、请求采取的措施，以及关于争议使用未获授权的善意声明。",
     "Do not include account passwords, payment-card data, or unrelated private information in a notice.":
         "通知中请勿包含账号密码、银行卡信息或无关的私人信息。",
     "We will review credible notices, preserve relevant product evidence, and take proportionate action available to a browser-extension developer. Depending on the issue, action may include clarifying product language, restricting a known misuse pattern, suspending an entitlement, or cooperating with the relevant platform or payment provider.":
@@ -299,15 +301,14 @@ PAGES = {
         "界面在 25 种语言下渲染正常，包含从右向左的排版。",
     "Promoted posts get no buttons. Posts the public endpoint cannot read show a disabled button explaining why.":
         "推广帖不显示任何按钮。公开接口读不到的帖子会显示禁用状态的按钮并说明原因。",
-    "Publish this website on a verified HTTPS address.": "把本网站发布到可验证的 HTTPS 地址。",
-    "Publish a verified support email and complaint channel.": "公布可验证的支持邮箱与投诉渠道。",
     "Complete Dodo Payments compliance review and account verification.":
         "完成 Dodo Payments 的合规审核与账户验证。",
     "Implement and test checkout, entitlement activation, restoration, and refund revocation.":
         "实现并测试结算、权益激活、恢复购买与退款撤销。",
     "Complete Chrome Web Store review.": "完成 Chrome 应用商店审核。",
-    "A verified public support address will be published before compliance submission and before any customer payment is accepted. This review build does not invent or expose an unverified support address.":
-        "可验证的公开支持邮箱会在提交合规审核之前、以及接受任何用户付款之前公布。本审核版本不会编造或展示未经验证的支持邮箱。",
+    "Support email:": "支持邮箱：",
+    "Questions, bug reports, copyright notices and refund requests all reach the same address. We will never ask for your X password or payment-card details.":
+        "问题咨询、缺陷反馈、著作权投诉与退款申请都发到这个地址。我们绝不会索取你的 X 密码或银行卡信息。",
     "Payments open after compliance review. No payment, account credential, or launch-list email is collected on this website.":
         "支付将在合规审核通过后开放。本网站不收取任何款项，也不收集账号凭据或上线通知邮箱。",
 },
